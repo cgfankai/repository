@@ -1,0 +1,38 @@
+.fold-menu {
+  color: #abb1b7;
+  background-color: #337ab7;
+}
+.fold-menu * {
+  margin: 0px;
+  padding: 5px 10px;
+}
+.fold-menu .active {
+  color: white;
+}
+
+i.arrow-unfold::before{
+    transform: rotate(90deg)    ;
+    -webkit-transform: rotate(90deg)    ;
+    -moz-transform: rotate(90deg)    ;
+    -ms-transform: rotate(90deg)    ;
+    -o-transform: rotate(90deg)    ;
+}
+.fold-menu > div:hover {
+  color: white;
+}
+.fold-menu > .collapse {
+  display: none;
+}
+.fold-menu > .collapse.in {
+  display: block;
+}
+.fold-menu > ul {
+  list-style: none;
+  background-color: #2682d3;
+}
+.fold-menu > div:hover {
+  color: white;
+}
+.fold-menu ul > li:hover {
+  color: white;
+}
